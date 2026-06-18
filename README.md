@@ -1,4 +1,4 @@
-# parcial-2-av-acn5av-barrenechea-godoy-pereyra
+# parcial-2-ap-acn5av-barrenechea-godoy-pereyra
 
 ## Proyecto: Estoy Bien. – Chamana
 
