@@ -16,13 +16,13 @@ Desarrollar, validar y lanzar la nueva línea de tés emocionales **"Estoy Bien.
 
 ## 3. Objetivo SMART
 
-| Criterio | Descripción |
-|-----------|-----------|
+| Criterio       | Descripción                                                                                                                             |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | **Específico** | Lanzar 3 variedades de tés emocionales (**Modo Avión**, **Touch Grass** y **No Sé, Llora**) bajo la línea **"Estoy Bien."** de Chamana. |
-| **Medible** | Alcanzar 500 unidades vendidas y 200 seguidores nuevos en redes sociales durante el primer mes post-lanzamiento. |
-| **Alcanzable** | Utilizar los recursos actuales de producción de Chamana y los canales digitales existentes. |
-| **Relevante** | Reconectar a la marca con el segmento joven (18 a 30 años) que actualmente no consume sus productos. |
-| **Temporal** | Completar el desarrollo y lanzamiento en un plazo de 3 sprints de 2 semanas cada uno (6 semanas en total). |
+| **Medible**    | Alcanzar 500 unidades vendidas y 200 seguidores nuevos en redes sociales durante el primer mes post-lanzamiento.                        |
+| **Alcanzable** | Utilizar los recursos actuales de producción de Chamana y los canales digitales existentes.                                             |
+| **Relevante**  | Reconectar a la marca con el segmento joven (18 a 30 años) que actualmente no consume sus productos.                                    |
+| **Temporal**   | Completar el desarrollo y lanzamiento en un plazo de 3 sprints de 2 semanas cada uno (6 semanas en total).                              |
 
 ---
 
@@ -53,12 +53,15 @@ Desarrollar, validar y lanzar la nueva línea de tés emocionales **"Estoy Bien.
 ## Stakeholder 1 — Cliente / Consumidor Joven
 
 ### Quién es
+
 Jóvenes de 18 a 30 años, estudiantes o trabajadores, que viven situaciones de estrés, cansancio y sobrepensamiento en su día a día.
 
 ### Interés
+
 Encontrar un producto que los represente emocionalmente, con humor e ironía, y que además sea una infusión natural de calidad.
 
 ### Influencia
+
 **Alta.** Son el público objetivo directo; si el producto no los conecta, el lanzamiento fracasa.
 
 ### Expectativas
@@ -199,6 +202,78 @@ El equipo reflexiona sobre el proceso, identifica qué funcionó y qué mejorar 
 
 ---
 
+### HU-01 — Registrar variedad base
+
+Como Administrador de Catálogo, quiero dar de alta una nueva variedad de té en el sistema con su nombre e ingredientes básicos para tener la base de datos de productos actualizada antes de añadir el concepto de marketing.
+**Story Points:** 3
+**Criterio 1:** Campos obligatorios. Dado que el administrador está creando una nueva variedad, Cuando intenta guardar el registro, Entonces el sistema debe exigir que los campos "Nombre" e "Ingredientes" estén completos.
+**Criterio 2:** Prevención de duplicados. Dado que existe una variedad llamada "Modo Avión", Cuando el administrador intenta crear otra con el mismo nombre, Entonces el sistema debe mostrar un error indicando "La variedad ya existe".
+
+### HU-02 — Definir concepto emocional
+
+Como Especialista en Marketing, quiero asociar un "concepto emocional" (ej. Ansiedad, Cansancio) a cada variedad registrada, para asegurar que el producto se alinea estratégicamente con el perfil del consumidor joven.
+**Story Points:** 2
+**Criterio 1:** Asignación de concepto. Dado que el especialista de marketing edita una variedad existente, Cuando selecciona un concepto emocional de la lista desplegable (ej. Ansiedad), Entonces este debe quedar vinculado permanentemente a la ficha del té.
+
+### HU-03 — Cargar frase identificatoria
+
+Como Especialista en Marketing, quiero ingresar una frase humorística e irónica en la ficha técnica de cada variedad, para que esta sea exportada correctamente al diseño del packaging y redes sociales.
+**Story Points:** 2
+**Criterio 1:** Límite de longitud. Dado que se está redactando la frase para el packaging, Cuando el texto supera los 150 caracteres, Entonces el sistema debe bloquear la escritura y mostrar un contador en rojo.
+
+### HU-04 — Auditar lista de ingredientes
+
+Como Analista de Calidad, quiero visualizar el listado consolidado de ingredientes por variedad, para verificar rápidamente que la composición cumple con las normativas alimentarias y la identidad de Chamana.
+**Story Points:** 1
+**Criterio 1:** Visualización consolidada. Dado que el analista de calidad ingresa al módulo de auditoría, Cuando solicita el reporte, Entonces debe visualizar una tabla que cruce cada variedad con sus respectivos ingredientes.
+
+### HU-05 — Estructurar encuesta digital
+
+Como Investigador de Mercado, quiero disponer de un formulario digital interactivo con los conceptos de los tés, para poder enviarlo a nuestra base de pruebas y recopilar percepciones objetivas.
+**Story Points:** 3
+**Criterio 1:** Preguntas requeridas. Dado que se configura el formulario, Cuando se publica la encuesta, Entonces debe contener obligatoriamente campos para: Edad, Variedad preferida y Puntaje (del 1 al 10).
+
+### HU-06 — Participar en la validación
+
+Como Consumidor Joven (Usuario Final), quiero poder responder la encuesta de validación de forma rápida desde mi celular, para aportar mi opinión sobre qué sabores y frases me representan mejor.
+**Story Points:** 3
+**Criterio 1:** Confirmación de envío. Dado que un consumidor joven completa todos los datos, Cuando presiona "Enviar", Entonces debe ver una pantalla de agradecimiento y su respuesta debe guardarse en la base de datos.
+
+### HU-07 — Visualizar reporte de feedback
+
+Como Analista de Datos, quiero acceder a un resumen automatizado (dashboard) de las respuestas de la encuesta, para identificar inmediatamente las métricas de aceptación o rechazo sin procesar datos manualmente.
+**Story Points:** 2
+**Criterio 1:** Cálculo de promedios. Dado que hay respuestas almacenadas, Cuando el analista de datos abre el dashboard, Entonces el sistema debe calcular y mostrar automáticamente el puntaje promedio general sobre 10.
+
+### HU-08 — Iterar atributos del producto
+
+Como Gestor de Producto, quiero poder modificar ágilmente el nombre, frase o ingredientes de una variedad en el sistema basándome en el reporte de feedback, para aplicar las mejoras necesarias antes de aprobar la producción final.
+**Story Points:** 3
+**Criterio 1:** Trazabilidad de cambios. Dado que el gestor de producto modifica un ingrediente tras el feedback, Cuando guarda los cambios, Entonces el sistema debe registrar la fecha, hora y usuario que realizó la modificación en un historial.
+
+### HU-09 — Disponibilizar contenido promocional
+
+Como Community Manager, quiero tener acceso a una carpeta centralizada con los copies y diseños finales de las 3 variedades, para poder programar la campaña de expectativa en Instagram sin demoras.
+**Story Points:** 5
+**Criterio 1:** Descarga de assets. Dado que el Community Manager accede a la carpeta de la variedad, Cuando selecciona una pieza gráfica, Entonces el sistema debe permitirle descargarla en formato de alta resolución (PNG/JPG).
+
+### HU-10 — Activar canal de venta online
+
+Como Administrador de E-commerce, quiero habilitar la visibilidad de la línea "Estoy Bien" en la tienda digital, para que el producto esté disponible para compra en el minuto exacto del lanzamiento planificado.
+**Story Points:** 3
+**Criterio 1:** Cambio de estado. Dado que el catálogo está en estado "Borrador", Cuando el administrador cambia el estado a "Publicado", Entonces las 3 variedades deben ser visibles inmediatamente en la interfaz pública de la tienda.
+
+### HU-11 — Adquirir el producto
+
+Como Consumidor Joven (Usuario Final), quiero poder navegar por la nueva línea en la tienda y realizar la compra de mi variedad favorita, para recibir el té que alivia mi estrés de forma rápida y sencilla.
+**Story Points:** 5
+**Criterio 1:** Generación de orden. Dado que el consumidor tiene una variedad en su carrito, Cuando completa el flujo de checkout simulado, Entonces el sistema debe reducir el stock en 1 unidad y generar un número de orden de confirmación.
+
+### HU-12 — Monitorear KRs post-lanzamiento
+
+Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de la línea, nuevos seguidores y reseñas recientes, para evaluar durante el primer mes si estamos cumpliendo los objetivos SMART y OKRs definidos.
+**Story Points:** 5
+**Criterio 1:** Cruce contra OKRs. Dado que el analista de negocio revisa las métricas mensuales, Cuando las ventas llegan a 500 unidades, Entonces el panel debe marcar el KR1 del Objetivo 3 como "Logrado" en color verde.
 
 ---
 
@@ -207,3 +282,4 @@ El equipo reflexiona sobre el proceso, identifica qué funcionó y qué mejorar 
 - v1.0 — Problemática, Objetivo General, SMART y OKRs
 - v2.0 — Análisis de Stakeholders
 - v3.0 — Metodología Scrum
+- v4.0 — Agregar Historias de Usuario
