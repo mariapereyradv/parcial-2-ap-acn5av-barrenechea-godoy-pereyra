@@ -201,6 +201,7 @@ El equipo reflexiona sobre el proceso, identifica qué funcionó y qué mejorar 
 **Objetivo:** Lanzar la línea al mercado, publicar contenido en redes sociales, asegurar puntos de venta y medir el impacto inicial.
 
 ---
+# Historias de Usuario
 
 ### HU-01 — Registrar variedad base
 
@@ -283,3 +284,4 @@ Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de
 - v2.0 — Análisis de Stakeholders
 - v3.0 — Metodología Scrum
 - v4.0 — Agregar Historias de Usuario
+- v5.0 - Agregar tablero de seguimiento
