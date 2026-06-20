@@ -285,3 +285,4 @@ Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de
 - v3.0 — Metodología Scrum
 - v4.0 — Agregar Historias de Usuario
 - v5.0 - Agregar tablero de seguimiento
+- v6.0 - Crear milestones y agregar issues
