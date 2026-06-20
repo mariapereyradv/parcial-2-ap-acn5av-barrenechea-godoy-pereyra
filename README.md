@@ -25,8 +25,7 @@ de Chamana, aplicando metodología Scrum.
 | Sprint 3 | Lanzamiento y Medición | M3 |
 
 ## Tablero de seguimiento
-https://github.com/users/mariapereyradv/projects/2/settings/access
---
+https://github.com/users/mariapereyradv/projects/2/views/1
 
 ## Materia
 
