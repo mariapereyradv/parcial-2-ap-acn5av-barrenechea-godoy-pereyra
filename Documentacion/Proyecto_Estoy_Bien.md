@@ -322,3 +322,32 @@ Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de
 - v5.0 - Agregar tablero de seguimiento
 - v6.0 - Crear milestones y agregar issues
 - v7.0 - Estimaciones con Story Points
+
+---
+
+## Asignación de Issues
+
+Fabricio Godoy:
+
+- HU-01 (Issue #1)
+- HU-02 (Issue #2)
+- HU-03 (Issue #3)
+- HU-04 (Issue #4)
+
+María Pereyra:
+
+- HU-05 (Issue #5)
+- HU-06 (Issue #6)
+- HU-07 (Issue #7)
+- HU-08 (Issue #8)
+
+Luciano Barrenechea:
+
+- HU-09 (Issue #9)
+- HU-10 (Issue #10)
+- HU-11 (Issue #11)
+- HU-12 (Issue #12)
+
+Todos los issues fueron asignados a sus respectivos responsables y ubicados inicialmente en la columna To Do del tablero GitHub Projects.
+
+v8.0 — Asignación de tareas
