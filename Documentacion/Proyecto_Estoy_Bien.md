@@ -201,6 +201,7 @@ El equipo reflexiona sobre el proceso, identifica qué funcionó y qué mejorar 
 **Objetivo:** Lanzar la línea al mercado, publicar contenido en redes sociales, asegurar puntos de venta y medir el impacto inicial.
 
 ---
+
 # Historias de Usuario
 
 ### HU-01 — Registrar variedad base
@@ -278,6 +279,40 @@ Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de
 
 ---
 
+# Issue,Título,Milestone
+
+#1,HU-01: Registrar variedad base,M1
+#2,HU-02: Definir concepto emocional,M1
+#3,HU-03: Cargar frase identificatoria,M1
+#4,HU-04: Auditar lista de ingredientes,M1
+#5,HU-05: Estructurar encuesta digital,M2
+#6,HU-06: Participar en la validación,M2
+#7,HU-07: Visualizar reporte de feedback,M2
+#8,HU-08: Iterar atributos del producto,M2
+#9,HU-09: Disponibilizar contenido promocional,M3
+#10,HU-10: Activar canal de venta online,M3
+#11,HU-11: Adquirir el producto,M3
+#12,HU-12: Monitorear KRs post-lanzamiento,M3
+
+---
+
+# Issue,Historia de Usuario,Story Points
+
+#1,HU-01: Registrar variedad base,3
+#2,HU-02: Definir concepto emocional,2
+#3,HU-03: Cargar frase identificatoria,2
+#4,HU-04: Auditar lista de ingredientes,1
+#5,HU-05: Estructurar encuesta digital,3
+#6,HU-06: Participar en la validación,3
+#7,HU-07: Visualizar reporte de feedback,2
+#8,HU-08: Iterar atributos del producto,3
+#9,HU-09: Disponibilizar contenido promocional,5
+#10,HU-10: Activar canal de venta online,3
+#11,HU-11: Adquirir el producto,5
+#12,HU-12: Monitorear KRs post-lanzamiento,5
+
+---
+
 ## Control de Versiones
 
 - v1.0 — Problemática, Objetivo General, SMART y OKRs
@@ -286,3 +321,4 @@ Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de
 - v4.0 — Agregar Historias de Usuario
 - v5.0 - Agregar tablero de seguimiento
 - v6.0 - Crear milestones y agregar issues
+- v7.0 - Estimaciones con Story Points
