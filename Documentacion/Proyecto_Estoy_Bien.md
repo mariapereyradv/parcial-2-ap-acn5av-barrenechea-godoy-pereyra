@@ -281,57 +281,60 @@ Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de
 
 # Milestones e Issues
 
-| Issue | Título | Milestone |
-|------|--------|------------|
-| #1 | HU-01: Registrar variedad base | M1 |
-| #2 | HU-02: Definir concepto emocional | M1 |
-| #3 | HU-03: Cargar frase identificatoria | M1 |
-| #4 | HU-04: Auditar lista de ingredientes | M1 |
-| #5 | HU-05: Estructurar encuesta digital | M2 |
-| #6 | HU-06: Participar en la validación | M2 |
-| #7 | HU-07: Visualizar reporte de feedback | M2 |
-| #8 | HU-08: Iterar atributos del producto | M2 |
-| #9 | HU-09: Disponibilizar contenido promocional | M3 |
-| #10 | HU-10: Activar canal de venta online | M3 |
-| #11 | HU-11: Adquirir el producto | M3 |
-| #12 | HU-12: Monitorear indicadores post-lanzamiento | M3 |
+| Issue | Título                                         | Milestone |
+| ----- | ---------------------------------------------- | --------- |
+| #1    | HU-01: Registrar variedad base                 | M1        |
+| #2    | HU-02: Definir concepto emocional              | M1        |
+| #3    | HU-03: Cargar frase identificatoria            | M1        |
+| #4    | HU-04: Auditar lista de ingredientes           | M1        |
+| #5    | HU-05: Estructurar encuesta digital            | M2        |
+| #6    | HU-06: Participar en la validación             | M2        |
+| #7    | HU-07: Visualizar reporte de feedback          | M2        |
+| #8    | HU-08: Iterar atributos del producto           | M2        |
+| #9    | HU-09: Disponibilizar contenido promocional    | M3        |
+| #10   | HU-10: Activar canal de venta online           | M3        |
+| #11   | HU-11: Adquirir el producto                    | M3        |
+| #12   | HU-12: Monitorear indicadores post-lanzamiento | M3        |
 
 ---
 
 ## Story Points
 
-| Issue | Historia de Usuario | Story Points |
-|------|----------------------|--------------|
-| #1 | HU-01: Registrar variedad base | 3 |
-| #2 | HU-02: Definir concepto emocional | 2 |
-| #3 | HU-03: Cargar frase identificatoria | 2 |
-| #4 | HU-04: Auditar lista de ingredientes | 1 |
-| #5 | HU-05: Estructurar encuesta digital | 3 |
-| #6 | HU-06: Participar en la validación | 3 |
-| #7 | HU-07: Visualizar reporte de feedback | 2 |
-| #8 | HU-08: Iterar atributos del producto | 3 |
-| #9 | HU-09: Disponibilizar contenido promocional | 5 |
-| #10 | HU-10: Activar canal de venta online | 3 |
-| #11 | HU-11: Adquirir el producto | 5 |
-| #12 | HU-12: Monitorear indicadores post-lanzamiento | 5 |
+| Issue | Historia de Usuario                            | Story Points |
+| ----- | ---------------------------------------------- | ------------ |
+| #1    | HU-01: Registrar variedad base                 | 3            |
+| #2    | HU-02: Definir concepto emocional              | 2            |
+| #3    | HU-03: Cargar frase identificatoria            | 2            |
+| #4    | HU-04: Auditar lista de ingredientes           | 1            |
+| #5    | HU-05: Estructurar encuesta digital            | 3            |
+| #6    | HU-06: Participar en la validación             | 3            |
+| #7    | HU-07: Visualizar reporte de feedback          | 2            |
+| #8    | HU-08: Iterar atributos del producto           | 3            |
+| #9    | HU-09: Disponibilizar contenido promocional    | 5            |
+| #10   | HU-10: Activar canal de venta online           | 3            |
+| #11   | HU-11: Adquirir el producto                    | 5            |
+| #12   | HU-12: Monitorear indicadores post-lanzamiento | 5            |
 
 ---
 
 ## Asignación de Issues
 
 ### Fabricio Godoy
+
 - HU-01
 - HU-02
 - HU-03
 - HU-04
 
 ### María Pereyra
+
 - HU-05
 - HU-06
 - HU-07
 - HU-08
 
 ### Luciano Barrenechea
+
 - HU-09
 - HU-10
 - HU-11
@@ -342,27 +345,61 @@ Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de
 # Código Fuente
 
 ### gestion_variedades.py
+
 - Gestión de variedades del producto
 - Definición de nombre, emoción e ingredientes
 
 ### validacion_consumidores.py
+
 - Registro de feedback de consumidores
 - Análisis de puntuaciones
 
 ### lanzamiento_mercado.py
+
 - Métricas del lanzamiento
 - Indicadores de desempeño
 
 ---
 
+### PASO 11 — Ajuste Metodológico
+
+**1. Problema detectado**
+Durante el Sprint 1, se detectó que la división de tareas inicial no contemplaba la carga real de trabajo técnico. La configuración del repositorio y el tablero consumieron más tiempo del estimado, generando un cuello de botella. Esto retrasó el inicio del Sprint 2 y comprimió el tiempo disponible para relevar las 30 respuestas de encuesta previstas en el OKR original.
+
+**2. Petición y Aprobación de Cambio**
+Para resolver este desvío sin perder trazabilidad, el equipo actuó como Comité de Control de Cambios para evaluar la situación.
+
+| Campo                     | Detalle                                                                                                                                                                                                                      |
+| :------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Proyecto**              | Chamana / Estoy Bien.                                                                                                                                                                                                        |
+| **Número**                | 01/01                                                                                                                                                                                                                        |
+| **Solicitante**           | Luciano Barrenechea (Product Owner)                                                                                                                                                                                          |
+| **Fecha de solicitud**    | 22 de junio de 2026                                                                                                                                                                                                          |
+| **Cambio solicitado**     | Redistribución de tareas de documentación de forma paralela y reducción de la meta del KR1 (Objetivo 1) de 30 a 20 encuestas para el Sprint 2.                                                                               |
+| **Analizador**            | Comité de Control de Cambios (Equipo Scrum)                                                                                                                                                                                  |
+| **Componentes afectados** | HU-05, HU-06, HU-07, HU-08 y métricas de validación.                                                                                                                                                                         |
+| **Valoración del cambio** | El ajuste permite recuperar el ritmo del proyecto y avanzar al Sprint 3 sin retrasos. La validez de la validación se mantiene al compensar la reducción cuantitativa con una revisión cualitativa más profunda del feedback. |
+| **Prioridad**             | Media                                                                                                                                                                                                                        |
+| **Decisión**              | Aceptar cambio. Implementarse a partir del Sprint 2.                                                                                                                                                                         |
+
+**3. Actualización de la Configuración (Patch v0.10.1)**
+En cumplimiento con la aprobación del cambio, se actualiza formalmente la documentación del proyecto, modificando el OKR inicial:
+
+- **KR1 (Actualizado):** Realizar 20 encuestas de validación antes del fin del Sprint 2.
+
+---
+
 ## Control de Versiones
 
-- v1.0 Problemática y objetivos iniciales  
-- v2.0 Análisis de stakeholders  
-- v3.0 Metodología de trabajo  
-- v4.0 Historias de usuario  
-- v5.0 Tablero de seguimiento  
-- v6.0 Milestones e issues  
-- v7.0 Story points  
-- v8.0 Asignación de tareas  
-- v9.0 Código fuente
+- v 0.1.0 Estructura inicial del proyecto
+- v 0.2.0 Problemática y objetivos iniciales
+- v 0.3.0 Análisis de stakeholders
+- v 0.4.0 Metodología de trabajo
+- v 0.5.0 Historias de usuario
+- v 0.6.0 Tablero de seguimiento
+- v 0.7.0 Milestones e issues
+- v 0.8.0 Story points
+- v 0.9.0 Asignación de tareas
+- v 0.10.0 Código fuente
+- v 0.10.1 (PATCH) Ajuste metodológico
+- v 1.0.0 Checklist de Cierre
