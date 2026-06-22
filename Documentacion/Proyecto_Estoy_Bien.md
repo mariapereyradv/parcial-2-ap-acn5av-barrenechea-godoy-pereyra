@@ -30,7 +30,7 @@ Desarrollar, validar y lanzar la nueva línea de tés emocionales **"Estoy Bien.
 
 ### Objetivo 1: Validar el producto con el público objetivo
 
-- **KR1:** Realizar 30 encuestas de validación antes del fin del Sprint 1.
+- **KR1:** Realizar 20 encuestas de validación antes del fin del Sprint 1.
 - **KR2:** Obtener un 70% de respuestas positivas sobre el concepto de tés emocionales.
 - **KR3:** Ajustar al menos una variedad según el feedback recibido.
 
