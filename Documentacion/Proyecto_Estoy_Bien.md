@@ -279,75 +279,90 @@ Como Analista de Negocio, quiero visualizar un panel integrado con las ventas de
 
 ---
 
-# Issue,Título,Milestone
+# Milestones e Issues
 
-#1,HU-01: Registrar variedad base,M1
-#2,HU-02: Definir concepto emocional,M1
-#3,HU-03: Cargar frase identificatoria,M1
-#4,HU-04: Auditar lista de ingredientes,M1
-#5,HU-05: Estructurar encuesta digital,M2
-#6,HU-06: Participar en la validación,M2
-#7,HU-07: Visualizar reporte de feedback,M2
-#8,HU-08: Iterar atributos del producto,M2
-#9,HU-09: Disponibilizar contenido promocional,M3
-#10,HU-10: Activar canal de venta online,M3
-#11,HU-11: Adquirir el producto,M3
-#12,HU-12: Monitorear KRs post-lanzamiento,M3
-
----
-
-# Issue,Historia de Usuario,Story Points
-
-#1,HU-01: Registrar variedad base,3
-#2,HU-02: Definir concepto emocional,2
-#3,HU-03: Cargar frase identificatoria,2
-#4,HU-04: Auditar lista de ingredientes,1
-#5,HU-05: Estructurar encuesta digital,3
-#6,HU-06: Participar en la validación,3
-#7,HU-07: Visualizar reporte de feedback,2
-#8,HU-08: Iterar atributos del producto,3
-#9,HU-09: Disponibilizar contenido promocional,5
-#10,HU-10: Activar canal de venta online,3
-#11,HU-11: Adquirir el producto,5
-#12,HU-12: Monitorear KRs post-lanzamiento,5
+| Issue | Título | Milestone |
+|------|--------|------------|
+| #1 | HU-01: Registrar variedad base | M1 |
+| #2 | HU-02: Definir concepto emocional | M1 |
+| #3 | HU-03: Cargar frase identificatoria | M1 |
+| #4 | HU-04: Auditar lista de ingredientes | M1 |
+| #5 | HU-05: Estructurar encuesta digital | M2 |
+| #6 | HU-06: Participar en la validación | M2 |
+| #7 | HU-07: Visualizar reporte de feedback | M2 |
+| #8 | HU-08: Iterar atributos del producto | M2 |
+| #9 | HU-09: Disponibilizar contenido promocional | M3 |
+| #10 | HU-10: Activar canal de venta online | M3 |
+| #11 | HU-11: Adquirir el producto | M3 |
+| #12 | HU-12: Monitorear indicadores post-lanzamiento | M3 |
 
 ---
 
-## Control de Versiones
+## Story Points
 
-- v1.0 — Problemática, Objetivo General, SMART y OKRs
-- v2.0 — Análisis de Stakeholders
-- v3.0 — Metodología Scrum
-- v4.0 — Agregar Historias de Usuario
-- v5.0 - Agregar tablero de seguimiento
-- v6.0 - Crear milestones y agregar issues
-- v7.0 - Estimaciones con Story Points
+| Issue | Historia de Usuario | Story Points |
+|------|----------------------|--------------|
+| #1 | HU-01: Registrar variedad base | 3 |
+| #2 | HU-02: Definir concepto emocional | 2 |
+| #3 | HU-03: Cargar frase identificatoria | 2 |
+| #4 | HU-04: Auditar lista de ingredientes | 1 |
+| #5 | HU-05: Estructurar encuesta digital | 3 |
+| #6 | HU-06: Participar en la validación | 3 |
+| #7 | HU-07: Visualizar reporte de feedback | 2 |
+| #8 | HU-08: Iterar atributos del producto | 3 |
+| #9 | HU-09: Disponibilizar contenido promocional | 5 |
+| #10 | HU-10: Activar canal de venta online | 3 |
+| #11 | HU-11: Adquirir el producto | 5 |
+| #12 | HU-12: Monitorear indicadores post-lanzamiento | 5 |
 
 ---
 
 ## Asignación de Issues
 
-Fabricio Godoy:
+### Fabricio Godoy
+- HU-01
+- HU-02
+- HU-03
+- HU-04
 
-- HU-01 (Issue #1)
-- HU-02 (Issue #2)
-- HU-03 (Issue #3)
-- HU-04 (Issue #4)
+### María Pereyra
+- HU-05
+- HU-06
+- HU-07
+- HU-08
 
-María Pereyra:
+### Luciano Barrenechea
+- HU-09
+- HU-10
+- HU-11
+- HU-12
 
-- HU-05 (Issue #5)
-- HU-06 (Issue #6)
-- HU-07 (Issue #7)
-- HU-08 (Issue #8)
+---
 
-Luciano Barrenechea:
+# Código Fuente
 
-- HU-09 (Issue #9)
-- HU-10 (Issue #10)
-- HU-11 (Issue #11)
-- HU-12 (Issue #12)
+### gestion_variedades.py
+- Gestión de variedades del producto
+- Definición de nombre, emoción e ingredientes
 
-Todos los issues fueron asignados a sus respectivos responsables y ubicados inicialmente en la columna To Do del tablero GitHub Projects.
+### validacion_consumidores.py
+- Registro de feedback de consumidores
+- Análisis de puntuaciones
 
-v8.0 — Asignación de tareas
+### lanzamiento_mercado.py
+- Métricas del lanzamiento
+- Indicadores de desempeño
+
+---
+
+## Control de Versiones
+
+- v1.0 Problemática y objetivos iniciales  
+- v2.0 Análisis de stakeholders  
+- v3.0 Metodología de trabajo  
+- v4.0 Historias de usuario  
+- v5.0 Tablero de seguimiento  
+- v6.0 Milestones e issues  
+- v7.0 Story points  
+- v8.0 Asignación de tareas  
+- v9.0 Código fuente
