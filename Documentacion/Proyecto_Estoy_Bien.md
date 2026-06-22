@@ -403,3 +403,59 @@ En cumplimiento con la aprobación del cambio, se actualiza formalmente la docum
 - v 0.10.0 Código fuente
 - v 0.10.1 (PATCH) Ajuste metodológico
 - v 1.0.0 Checklist de Cierre
+
+---
+
+## Checklist de Cierre
+
+### Versiones del documento
+
+- ✅ v1.0 — Problemática, Objetivo General, SMART, OKRs
+- ✅ v2.0 — Análisis de Stakeholders
+- ✅ v3.0 — Metodología Scrum
+- ✅ v4.0 — Historias de Usuario
+- ✅ v5.0 — Tablero GitHub Projects
+- ✅ v6.0 — Milestones e Issues
+- ✅ v7.0 — Estimaciones Story Points
+- ✅ v8.0 — Asignación de tareas
+- ✅ v9.0 — Código fuente
+- ✅ v10.0 — Ajuste metodológico
+
+### Commits
+
+- ✅ Commit 1 — docs: estructura inicial del proyecto
+- ✅ Commit 2 — docs: agregar objetivo SMART y OKR
+- ✅ Commit 3 — docs: agregar análisis de stakeholders
+- ✅ Commit 4 — docs: agregar metodología Scrum
+- ✅ Commit 5 — docs: agregar historias de usuario
+- ✅ Commit 6 — docs: agregar tablero de seguimiento
+- ✅ Commit 7 — feat: crear milestones e issues
+- ✅ Commit 8 — docs: agregar estimaciones
+- ✅ Commit 9 — docs: asignar tareas
+- ✅ Commit 10 — feat: agregar código fuente
+- ✅ Commit 11 — docs: documentar ajuste metodológico
+
+### Milestones
+
+- ✅ M1 — Gestión de Variedades (HU-01 a HU-04)
+- ✅ M2 — Validación de Consumidores (HU-05 a HU-08)
+- ✅ M3 — Lanzamiento y Medición (HU-09 a HU-12)
+
+### Issues
+
+- ✅ 12 issues creados (uno por cada HU)
+- ✅ Asignados a cada integrante
+- ✅ Vinculados a su milestone correspondiente
+
+### Tablero GitHub Projects
+
+- ✅ Columnas creadas: To Do / In Progress / In Review / Done
+- ✅ Integrantes agregados
+- ✅ Profesor invitado (sergiomedinaio)
+- ✅ URL pegada en el documento
+
+### Código fuente
+
+- ✅ gestion_variedades.py
+- ✅ validacion_consumidores.py
+- ✅ lanzamiento_mercado.py
