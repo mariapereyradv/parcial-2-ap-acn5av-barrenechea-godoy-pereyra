@@ -2,6 +2,12 @@
 # Proyecto: Estoy Bien. – Chamana
 # Sprint 1 – Milestone M1
 
+# HU-01: Registrar variedad base
+# Variedades definidas:
+# - Modo Avión
+# - Touch Grass
+# - No Sé, Llora
+
 variedades = [
     {
         "nombre": "Modo Avión",
